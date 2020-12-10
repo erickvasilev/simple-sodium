@@ -1,6 +1,6 @@
 {
   "name": "simple-sodium",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple function to encrypt decrypt using Libsodium with static result",
   "main": "simple-sodium.js",
   "dependencies": {
@@ -17,5 +17,6 @@
     "simple-sodium"
   ],
   "author": "Erick Vasilev",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/erickvasilev/simple-sodium"
 }
