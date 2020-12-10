@@ -20,14 +20,20 @@ async function do_encryption (key, plain_text) {
     console.log(result);
 }
 
+//"hello" is the key, "world" is the plain text that will be encrypted
+
 do_encryption("hello", "world");
 
 async function do_decryption (key, chipertext) {
     var result = await simple_sodium.decrypt(key,chipertext);
-    console.log(result);
+    return result
 }
 
-do_decryption("hello", "578c06071451279211269233b261aefc84d2d1f641")
+//"578c060..." is the encrypted plain text that we encrypt using "hello" as the key
+
+do_decryption("hello", "578c06071451279211269233b261aefc84d2d1f641").then(function (result) {
+      console.log(result)
+ })
 
 
 async function do_oneway (plain_text, length) {
