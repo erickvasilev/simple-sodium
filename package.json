@@ -1,0 +1,21 @@
+{
+  "name": "simple-sodium",
+  "version": "1.0.0",
+  "description": "Simple function to encrypt decrypt using Libsodium with static result",
+  "main": "simple-sodium.js",
+  "dependencies": {
+    "libsodium": "^0.7.8",
+    "libsodium-wrappers": "^0.7.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "libsodium",
+    "sodium",
+    "simple-sodium"
+  ],
+  "author": "Erick Vasilev",
+  "license": "ISC"
+}
