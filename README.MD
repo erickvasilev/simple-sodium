@@ -12,7 +12,7 @@ npm install simple-sodium
 
 ## Usage
 
-```nodejs
+```js
 var simple_sodium = require("simple-sodium");
 
 async function do_encryption (key, plain_text) {
